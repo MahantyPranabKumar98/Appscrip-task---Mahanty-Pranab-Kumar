@@ -1,0 +1,40 @@
+/* styles/HeroSection.module.css */
+.hero {
+    background-color: white;
+    padding: 0 0;
+    text-align: center;
+  }
+  .hero hr {
+    width: 1250px;
+  }
+  
+  .heroContent {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+  
+  .heroContent h2 {
+    font-size: 44px;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .heroContent p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width:650px;
+    margin-left: 80px;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .heroContent h2 {
+      font-size: 28px;
+    }
+    .heroContent p {
+      font-size: 16px;
+    }
+  }

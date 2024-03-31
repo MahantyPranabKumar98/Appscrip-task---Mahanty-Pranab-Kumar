@@ -1,0 +1,32 @@
+/* styles/Header.module.css */
+.header {
+    background-color:white;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+  }
+  .header h1 {
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px
+  }
+  .headerlogo img {
+    width: 70px; 
+    height: 50px;
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 50%; 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    z-index: 999; 
+    background-size: cover;
+    background-position: center;
+}
+
+  @media (max-width: 768px){
+    .header {
+      padding: 10px;
+    }
+  }
